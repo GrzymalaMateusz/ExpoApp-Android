@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Edytuj Profil"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#b83333"
+        android:gravity="center" />
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Logo:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView88"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Logo"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Logo" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Logo" />
+            <TextView
+                android:text="Nazwa Firmy:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_ComapnyName"
+                android:text="Strych"
+                android:gravity="center" />
+            <TextView
+                android:text="Pełna Nazwa Firmy:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_CompanyFullName"
+                android:text="Strych Polska"
+                android:gravity="center" />
+            <TextView
+                android:text="O Firmie:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_CompanyAbout"
+                android:text="lsakdmalskdcmlsdac"
+                android:gravity="center" />
+            <TextView
+                android:text="O Produktach:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/text"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_ProductsAbout"
+                android:text="Miejsce na twoja reklame zrobiona przez nas"
+                android:gravity="center" />
+            <TextView
+                android:text="Email Kontaktowy:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_ContactEmail"
+                android:text="biuro@strychpolska.pl"
+                android:gravity="center" />
+            <TextView
+                android:text="Telefon:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Phone"
+                android:text="111222333"
+                android:gravity="center" />
+            <TextView
+                android:text="Adres:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Adress"
+                android:text="Plac Defilad 1, 00-950 Warszawa"
+                android:gravity="center" />
+            <TextView
+                android:text="Imię i Nazwisko:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_FornameAndSurname"
+                android:text="Michał Mgr"
+                android:gravity="center" />
+            <TextView
+                android:text="NIP:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_NIP"
+                android:text="5466"
+                android:gravity="center" />
+            <TextView
+                android:text="Prywatny Telefon:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_UserPhone"
+                android:gravity="center"
+                android:text="154321456" />
+            <TextView
+                android:text="Prywatny Email:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Email"
+                android:text="mateuszg787wy@gmail.com"
+                android:gravity="center" />
+            <TextView
+                android:text="Strona WWW:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView17"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_WWW"
+                android:gravity="center"
+                android:text="http://www.strychpolska.pl" />
+            <TextView
+                android:text="Facebook:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView18"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Facebook"
+                android:text="https://www.facebook.com/strychpolska/"
+                android:gravity="center" />
+            <TextView
+                android:text="Instagram:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView19"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Instagram"
+                android:text="https://www.instagram.com/grzymala_mateusz/"
+                android:gravity="center" />
+            <TextView
+                android:text="Youtube:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView20"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Youtube"
+                android:text="RjlnmteFFw4"
+                android:gravity="center" />
+            <TextView
+                android:text="Zdjęcie Stanowiska:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView89"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_SPhoto"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_SPhoto" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_SPhoto" />
+            <TextView
+                android:text="Zdjęcie 1:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Photo1"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Photo1" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Photo1" />
+            <TextView
+                android:text="Zdjęcie 2:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView91"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Photo2"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Photo2" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Photo2" />
+            <TextView
+                android:text="Zdjęcie 3:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView92"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Photo3"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Photo3" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Photo3" />
+            <TextView
+                android:text="Zdjęcie 4:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView93"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Photo4"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Photo4" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Photo4" />
+            <TextView
+                android:text="Zdjęcie 5:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView94"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/Company_Edit_Profile_Photo5"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Photo5" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Button_Take_Photo5" />
+            <Button
+                android:text="Zapisz Zmiany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Company_Edit_Profile_Save"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

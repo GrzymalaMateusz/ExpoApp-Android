@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="Rejestracja"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:background="#b83333"
+        android:gravity="center" />
+    <TextView
+        android:text="Email:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:gravity="center"
+        android:textColor="#b83333" />
+    <EditText
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register_Email"
+        android:text="mateuszg787ucz@gmail.com"
+        android:gravity="center" />
+    <TextView
+        android:text="Hasło:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#b83333" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register_Password"
+        android:text="haslo1"
+        android:gravity="center" />
+    <TextView
+        android:text="Powtórz Hasło:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#b83333" />
+    <EditText
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register_Confirm_Password"
+        android:text="haslo1"
+        android:gravity="center" />
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup1"
+        android:gravity="center">
+        <TextView
+            android:text="Rodzaj konta:"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView4"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textColor="#b83333" />
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Uczestnik"
+            android:id="@+id/radioButton1" />
+        <RadioButton
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Wystawca"
+            android:id="@+id/radioButton2" />
+    </RadioGroup>
+    <Button
+        android:text="Zarejestruj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Register1"
+        android:background="#ffffff"
+        android:textColor="#b83333"
+        android:layout_marginTop="20px" />
+</LinearLayout>

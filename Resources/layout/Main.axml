@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Zaloguj jako:"
+        android:id="@+id/textView"
+        android:layout_marginTop="131dp"
+        android:textSize="28dp"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="#b83333" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="użytkownik/wystawca"
+        android:id="@+id/Login"
+        android:textSize="28dp"
+        android:background="#ffffff"
+        android:layout_marginTop="10.0dp"
+        android:textColor="#b83333" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="zarejestruj"
+        android:id="@+id/Register"
+        android:textSize="28dp"
+        android:background="#ffffff"
+        android:layout_marginTop="50.0dp"
+        android:textColor="#b83333" />
+</LinearLayout>

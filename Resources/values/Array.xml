@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="car_prompt">Choose a Car</string>
+  <string-array name="car_array">
+    <item>Scorpio</item>
+    <item>xylo</item>
+    <item>Innovo</item>
+    <item>Benz</item>
+    <item>BMW</item>
+    <item>Audi</item>
+    <item>Jaguar</item>
+    <item>ferrari</item>
+  </string-array>
+</resources>

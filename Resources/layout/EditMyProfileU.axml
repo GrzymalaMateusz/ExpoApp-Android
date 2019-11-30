@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Mój Profil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1"
+        android:textSize="28dp"
+        android:textColor="#ffffff"
+        android:background="#b83333"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp" />
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:text="Imie:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView2"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_ForName"
+                android:gravity="center" />
+            <TextView
+                android:text="Nazwisko:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView3"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_SurName"
+                android:gravity="center" />
+            <TextView
+                android:text="Email:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView4"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Email"
+                android:enabled="false"
+                android:editable="false"
+                android:gravity="center" />
+            <TextView
+                android:text="Telefon:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView5"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Phone"
+                android:gravity="center" />
+            <TextView
+                android:text="Kraj:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView6"
+                android:gravity="center" />
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Nationality"
+                android:gravity="center"
+                android:text="Polska" />
+            <TextView
+                android:text="Zdjęcie:"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:gravity="center" />
+            <ImageView
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_width="100dp"
+                android:layout_height="150dp"
+                android:id="@+id/User_Edit_Profile_Photo"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                android:layout_marginTop="20px"
+                android:layout_marginBottom="20px"
+                android:layout_gravity="center" />
+            <Button
+                android:text="Wybierz z galerii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Button_Photo" />
+            <Button
+                android:text="Zrób zdjęcie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Button_Take_Photo" />
+            <Button
+                android:text="Zapisz Zmiany"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/User_Edit_Profile_Save"
+                android:background="#ffffff" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
